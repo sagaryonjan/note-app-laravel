@@ -13,3 +13,11 @@ A simple note app api
 ## CORS
 you can add frontend url for the backend api in env variable file for production. by default it will accept all the requests from any origin.
 ALLOWED_ORIGINS=
+
+## Seeder
+Run below command to insert the demo user.
+
+php artisan db:seed
+
+## Run Application 
+php artisan serve
